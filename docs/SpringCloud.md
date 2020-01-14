@@ -53,7 +53,7 @@
 
 ### Eureka Server 注册中心
 
-服务的注册与发现
+- 分布式系统中，服务注册中心是最重要的基础部分
 
 
 
@@ -128,6 +128,8 @@ spring:
 
 
 ### Eureka 高可用
+
+- 生产上建议至少两台以上eureka
 
 ![EurekaServer高可用](img\EurekaServer高可用.png)
 
