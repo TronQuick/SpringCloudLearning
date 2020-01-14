@@ -17,7 +17,7 @@
 
 
 
-![微服务架构图](docs\img\微服务架构图.png)
+![微服务架构图](docs/img/微服务架构图.png)
 
 **微服务架构基础框架/组件**
 
@@ -131,9 +131,9 @@ spring:
 
 - 生产上建议至少两台以上eureka
 
-![EurekaServer高可用](docs\img\EurekaServer高可用.png)
+![EurekaServer高可用](docs/img/EurekaServer高可用.png)
 
-![EurekaServer高可用](docs\img\EurekaServer高可用2.png)
+![EurekaServer高可用](docs/img/EurekaServer高可用2.png)
 
 （eureka互相注册后会交换信息，client可以在多个eureka中注册，就算其中一个eureka挂掉，其他也可以用）
 
